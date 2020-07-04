@@ -1,0 +1,129 @@
+body{
+    margin:0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 900px 90px 300px;
+    grid-template-areas: 
+        "header"
+        "content"
+        "info"
+        "address"
+    ;
+    justify-content: center;
+}
+
+.header{
+    grid-area: header;
+    background-image: linear-gradient(90deg, #3498DB 0%,  #4FACAF 70%, #96ECCE 100%);
+    color: white;
+    padding: 5px;
+    padding-left: 400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.content{
+    grid-area: content;
+    border: 1px solid;
+    background-color: #414546;
+}
+
+.info{
+    grid-area: info;
+    border: 1px solid;
+    background-color:#F0F0F0;
+}
+
+.address{
+    grid-area: address;
+    background-color: #F0F0F0;
+    color: grey;
+}
+
+.contentTable td{
+    color:white;
+    border: none;
+    padding-bottom: 50px;
+    width: 500px;
+    height: 170px;
+    padding-left: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.contentTable td:hover{
+    color: #74B8B9;
+}
+
+.contentTable{
+    margin-left: 400px;
+    margin-top: 60px;
+    border-spacing: 20px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.infoTable{
+    text-align: center;
+    display: block;
+    height: 60px;
+    background-color: #E5E6E6 ;
+    margin: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+}
+
+.infoTable td{
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    color: grey;
+}
+
+#lol{
+    background-image: url(https://hdwallsource.com/img/2013/01/league-of-legends-wallpaper-812.jpg);
+    background-size: cover;
+}
+#pubg{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/169/715/816/pubg-playerunknowns-battlegrounds-2018-games-games-wallpaper-preview.jpg);
+    background-size: cover;
+}
+#over{
+    background-image: url(https://www.myplaystationwallpapers.net/1920x1080/overwatch-anime.jpg);
+    background-size: cover;
+}
+#six{
+    background-image: url(https://images.hdqwalls.com/wallpapers/4k-tom-clancys-rainbow-six-siege-game-27.jpg);
+    background-size: cover;
+}
+#shadow{
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/947347005715658874/49729B96CFEF8BF6351F0D6A06A5F29DAF4BC0E1/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-size: cover;
+}
+
+#sns{      /* td */
+    cursor: pointer;
+    padding-left: 500px;
+}
+
+.addressTable{
+    margin-left: 450px;
+    margin-top:50px;
+}
+
+#opgg{
+    font-size: 2em;
+    
+}
+
+#hidden{
+    padding-left: 420px;
+}
